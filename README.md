@@ -17,7 +17,7 @@ import * as DisableOutputPlugin from 'disable-output-plugin';
 module.exports = {
   plugins: [
     // 'index.js' is the output filename
-    new DisableOutputPlugin({ test: /^index.js$/i })
+    new DisableOutputPlugin({ test: /^index\.js$/i })
   ]
 }
 ```
