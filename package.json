@@ -1,6 +1,6 @@
 {
   "name": "disable-output-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Disables saving output files in Webpack",
   "license": "MIT",
   "author": {
@@ -25,6 +25,10 @@
     "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\"",
     "lint": "eslint \"{src,test}/**/*.js\" --fix"
   },
+  "files": [
+    "dist",
+    "types"
+  ],
   "peerDependencies": {
     "webpack": "^5.1.0"
   },
